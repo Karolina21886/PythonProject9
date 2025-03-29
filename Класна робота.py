@@ -94,7 +94,7 @@ class Bus(TransportVehicle):
         return super().__str__() + f" Маршрут: {self.route}."
 
     car = Car(120, 5, "Toyota")
-    bike = Bicycle(25, 1, "Гірський")
+    bike = Bicycle(25, 1, "Merida")
     bus = Bus(80, 50, "№23")
     print(car.move())
     print(car)
