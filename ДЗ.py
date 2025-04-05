@@ -1,13 +1,13 @@
-def get_grade(score):
+a
     if 0 <= score <= 49:
         return "Незадовільно"
-    elif 50 <= score <= 69:
+    if 50 <= score <= 69:
         return "Задовільно"
-    elif 70 <= score <= 89:
+    if 0 <= 70:
         return "Добре"
-    elif 90 <= score <= 100:
+    if 0 <= 90:
         return "Відмінно"
-    else:
+    :
         return "Некоректне значення балів"
 
 try:
