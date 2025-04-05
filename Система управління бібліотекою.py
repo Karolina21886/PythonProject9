@@ -48,5 +48,3 @@ library_items = [
 for item in library_items:
     item.display_info()
 
-print(library_items[0].borrow_item())
-print(library_items[0].borrow_item())
