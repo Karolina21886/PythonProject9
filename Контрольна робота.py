@@ -17,7 +17,7 @@ class ProductsScraper:
             print("Не вдалося підключитися до сайту")
 
     def getInfo(self):
-        # Замість парсингу з сайту вставимо вручну список косметики
+
         products = [
             {'Назва': 'Туш для вій Maybelline New York Lash Sensational Sky High', 'Ціна': 329},
             {'Назва': 'Гель для душу L\'Oreal Paris Men Expert 5in1 Total Clean', 'Ціна': 211},
@@ -54,7 +54,7 @@ if scraper.soup:
     print("ТОП-10 товарів косметики на Rozetka:")
     scraper.showInfo()
 
-    # Процес покупки
+
     order = []
     while True:
         try:
